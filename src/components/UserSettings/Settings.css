@@ -1,0 +1,84 @@
+/* Set a style for heading */
+.Settings h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 10.0;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: green;
+    text-align: left;
+  }
+  
+  /* Set a style for form box */
+  .Settings {
+    background-color:lightgray;
+    width: 1100%;
+    padding: 12px;
+    font-weight: bold;
+  }
+  
+  /* Set a style for email form */
+  .Settings input[type=email], input[type=email] {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+  
+  /* Set a style for password form */
+  .Settings input[type=password], input[type=password] {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+  
+  /* Set a style for all buttons */
+  .Settings button {
+    background-color:#4285F4;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 0px;
+    margin: 5px 0;
+    opacity: 1;
+    display: inline-block;
+    font-size: 32px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 1;
+  }
+  
+  .Settings body {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+  
+    }
+  
+  .Settings {
+  margin: 0 auto;
+  max-width: 500px;
+  }

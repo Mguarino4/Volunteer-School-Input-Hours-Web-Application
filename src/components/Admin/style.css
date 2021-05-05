@@ -1,0 +1,16 @@
+
+  /* Set a style for all buttons */
+.Admin button {
+    background-color:#4285F4;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    margin: 5px 0;
+    opacity: 1;
+    display: inline-block;
+    line-height: 20px;
+    text-decoration: none;
+  }
+  
+  
